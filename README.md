@@ -14,6 +14,7 @@ Steps:
 Once the VMs will be deployed perform following steps:
 
  - on mom:
+
 ./puppet-enterprise-installer
 puppet agent -t
 puppet infra console_password --password=password
