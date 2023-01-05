@@ -41,3 +41,4 @@ curl -k https://192.168.56.140:8140/packages/current/install.bash | sudo bash
 
 puppetserver ca sign --all
 
+s
