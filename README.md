@@ -29,7 +29,6 @@ Once the VMs will be deployed perform following steps:
       puppet agent -t
       
       puppet infra console_password --password=password
-          
       puppet agent -t
       
         Console available under https://192.168.56.140
