@@ -18,18 +18,19 @@ Once the VMs will be deployed perform following steps:
 
  - on mom:
  
-      sudo -i
+        sudo -i
 
-      mv puppet-enterprise-2023.0.0-el-7-x86_64/ pe
+        mv puppet-enterprise-2023.0.0-el-7-x86_64/ pe
        
-      pe/puppet-enterprise-installer
+        pe/puppet-enterprise-installer
       
-      puppet agent -t
+        puppet agent -t
       
-      puppet agent -t
+        puppet agent -t
       
-      puppet infra console_password --password=password
-      puppet agent -t
+        puppet infra console_password --password=password
+      
+        puppet agent -t
       
         Console available under https://192.168.56.140
         Credentials: admin/password
