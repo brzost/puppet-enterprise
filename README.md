@@ -10,6 +10,7 @@ Steps:
 1. Run 'vagrant init' to intiate vagrant environment, this will create vagrantfile.
 2. Replace vagrant file with the file from this repo
 3. Run 'vagrant up'
+
 login: vagrant
 password: vagrant
 
