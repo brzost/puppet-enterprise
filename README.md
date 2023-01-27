@@ -19,6 +19,8 @@ Once the VMs will be deployed perform following steps:
  - on mom:
  
         sudo -i
+        
+        tar -xvzf puppet-enterprise.tar.gz
 
         mv puppet-enterprise-2023.0.0-el-7-x86_64/ pe
        
